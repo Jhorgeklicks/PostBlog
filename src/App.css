@@ -1,0 +1,15 @@
+.card:hover .card__delete{
+    display: block;
+    transform: skewX(-6deg);
+    cursor: pointer;
+}
+
+.card:hover .card__title,
+.card:hover .card__title-text{
+    transform: skewX(-6deg);
+}
+
+/* .card__delete{
+    display: none;
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+} */
